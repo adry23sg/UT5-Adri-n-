@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UT5 (Adrián Martín)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/main.js" defer></script>
+    <!-- INCLUSIÓN DE LAS LIBRERÍAS -->
+
+    <!-- INCLUSIÓN MEDIANTE FICHERO LOCAL  (W3.JS)-->
+    <script src="js/w3.js" defer></script>
+    <!-- INCLUSIÓN MEDIANTE FICHERO REMOTO (W3.CSS)-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+    <div class="w3-container w3-indigo">
+        <h1 class="w3-center">SELECTORES</h1>
+    </div>
+
+    <div class="w3-container w3-border w3-margin-top">
+        <h3 class="w3-center">SELECTOR DE ELEMENTO</h3>
+        <p class="w3-left-align">Párrafo alineado a la izquierda.</p>
+        <p class="w3-center">Párrafo centrado.</p>
+        <p class="w3-right-align">Párrafo alineado a la derecha.</p>
+        <div class="w3-center">
+            <button class="w3-button w3-blue w3-hover-white w3-border w3-border-blue" onclick="w3.hide('p')">Ocultar párrafos mediante selector de elemento</button>
+            <button class="w3-button w3-blue w3-hover-white w3-border w3-border-blue" onclick="w3.show('p')">Mostrar párrafos mediante selector de elemento</button>
+        </div>
+    </div>
+
+    <div class="w3-container w3-border w3-margin-top">
+        <h3 class="w3-center">SELECTOR MEDIANTE CLASE</h3>
+        <p class="w3-left-align  parrafo">Párrafo alineado a la izquierda.</p>
+        <p class="w3-center  parrafo">Párrafo centrado.</p>
+        <p class="w3-right-align parrafo">Párrafo alineado a la derecha.</p>
+        <div class="w3-center">
+            <button class="w3-button w3-cyan w3-hover-white w3-border w3-border-cyan" onclick="w3.hide('.parrafo')">Ocultar párrafos mediante clase</button>
+            <button class="w3-button w3-cyan w3-hover-white w3-border w3-border-cyan" onclick="w3.show('.parrafo')">Mostrar párrafos mediante clase</button>
+        </div>
+    </div>
+
+    <div class="w3-container w3-border w3-margin-top">
+        <h3 class="w3-center">SELECTOR MEDIANTE IDENTIFICADOR</h3>
+        <p id="p1" class="w3-center">Párrafo centrado.</p>
+        <div class="w3-center">
+            <button class="w3-button w3-light-blue w3-hover-white w3-border w3-border-light-blue" onclick="w3.hide('#p1')">Ocultar párrafos mediante identificador</button>
+            <button class="w3-button w3-light-blue w3-hover-white w3-border w3-border-light-blue" onclick="w3.show('#p1')">Mostrar párrafos mediante identificador</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

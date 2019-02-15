@@ -1,0 +1,37 @@
+body {
+  background-color: #121412;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+  width: 75%;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid #817d7d;
+  background-color: #4C4670;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.object-fit-fill {
+  object-fit: fill;
+}
+
+.object-fit-contain {
+  object-fit: contain;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.object-fit-scale-down {
+  object-fit: scale-down;
+}
+
+.object-fit-none {
+  object-fit: none;
+}
+
+/*# sourceMappingURL=style.css.map */

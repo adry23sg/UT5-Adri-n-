@@ -1,0 +1,13 @@
+body {
+  counter-reset: seleccionados;
+}
+
+input:checked {
+  counter-increment: seleccionados;
+}
+
+.total::after {
+  content: counter(characters);
+}
+
+/*# sourceMappingURL=syle.css.map */

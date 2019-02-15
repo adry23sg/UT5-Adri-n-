@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GRID</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script type="text/javascript" src="main.js" defer></script>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <h2>GRID - Justify Content</h2>
+        <div id="grid" class="grid">
+            <div class="elementogrid">1</div>
+            <div class="elementogrid">2</div>
+            <div class="elementogrid">3</div>
+            <div class="elementogrid">4</div>
+        </div>
+        <button onclick="cambiarClaseJustifyContent('jc-space-evenly')">Space-evenly</button>
+        <button onclick="cambiarClaseJustifyContent('jc-space-around')">Space-around</button>
+        <button onclick="cambiarClaseJustifyContent('jc-space-between')">Space-between</button>
+
+        <button onclick="cambiarClaseJustifyContent('jc-center')">Center</button>
+        <button onclick="cambiarClaseJustifyContent('jc-start')">Start</button>
+        <button onclick="cambiarClaseJustifyContent('jc-end')">End</button>
+    </div>
+
+
+</body>
+
+</html>

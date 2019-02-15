@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UT5 (Adrián Martín)</title>
+    <!-- INCLUSIÓN DE LAS LIBRERÍAS -->
+
+    <!-- INCLUSIÓN MEDIANTE FICHERO LOCAL  (W3.JS)-->
+    <script src="js/w3.js" defer></script>
+    <!-- INCLUSIÓN MEDIANTE FICHERO REMOTO (W3.CSS)-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+    <div class="w3-container w3-red">
+        <h1 class="w3-center">ORDENACIÓN</h1>
+    </div>
+
+    <div class="w3-container w3-border w3-border-red w3-margin-top">
+        <h3 class="w3-center w3-text-red">ORDENACIÓN DE LISTAS</h3>
+
+        <div class="w3-center" style="width: 50%; margin: auto">
+            <button onclick="w3.sortHTML('.milista', 'li')">Ordenar</button>
+        </div>
+
+        <div class="w3-container w3-center">
+            <ul class="w3-ul w3-center">
+                <li>
+                    <h3>Primer plato</h3>
+                    <ul class="w3-ul w3-center w3-hoverable milista">
+                        <li>Macarrones</li>
+                        <li>Gazpacho</li>
+                        <li>Judías pintas</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Segundo plato</h3>
+                    <ul class="w3-ul w3-center w3-hoverable milista">
+                        <li>Pollo al ajillo</li>
+                        <li>Merluza frita</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Postre</h3>
+                    <ul class="w3-ul w3-center w3-hoverable milista">
+                        <li>Fruta</li>
+                        <li>Yogur</li>
+                        <li>Café</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

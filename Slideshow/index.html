@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UT5 (Adrián Martín)</title>
+    <!-- INCLUSIÓN DE LAS LIBRERÍAS -->
+
+    <!-- INCLUSIÓN MEDIANTE FICHERO LOCAL  (W3.JS)-->
+    <script src="js/w3.js"></script>
+    <!-- INCLUSIÓN MEDIANTE FICHERO REMOTO (W3.CSS)-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+    <div class="w3-container w3-purple">
+        <h1 class="w3-center">SLIDESHOW</h1>
+    </div>
+
+    <div class="w3-container w3-border w3-border-purple w3-margin-top" style="margin: auto; width: 50%">
+
+        <img class="imagen-slideshow" src="img/city1.jpg" style="width: 100%; height: auto;">
+        <img class="imagen-slideshow" src="img/city2.jpg" style="width: 100%; height: auto;">        
+        <img class="imagen-slideshow" src="img/city4.png" style="width: 100%; height: auto;">
+
+        <div class="w3-container w3-margin-top" style="margin: auto; width: 50%">
+            <button onclick="slideshow.previous()" style="float: left;">Anterior</button>
+            <button onclick="slideshow.next()" style="float: right;">Siguiente</button>
+        </div>
+
+    </div>
+
+    <script defer>
+        slideshow = w3.slideshow(".imagen-slideshow", 0);        
+    </script>
+
+
+</body>
+
+</html>
